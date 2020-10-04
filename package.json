@@ -1,7 +1,7 @@
 {
-	"name": "web-extension-starter",
+	"name": "klarna-blocker-extension",
 	"version": "1.0.0",
-	"description": "A web browser extension starter - based on Typescript, React, Redux, Styled-Component, Webpack, and more. Runs on Chrome and Firefox.",
+	"description": "An extension for swedes with bad impulse control. This project attempts to remove all Klarna payment alternatives for swedish webshopping sites.",
 	"main": "index.js",
 	"scripts": {
 		"dev": "cross-env NODE_ENV=development webpack -d",
