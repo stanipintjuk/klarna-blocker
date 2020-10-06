@@ -5,7 +5,6 @@ import styled, { ThemeProvider } from "styled-components";
 import { IAppState } from "../../background/store";
 import GlobalStyle from "../../components/styles/GlobalStyle";
 import { themes, ThemeTypes } from "../../components/styles/themes";
-import Counter from "../../containers/Counter";
 
 interface IOptionsApp {
   theme: ThemeTypes;
