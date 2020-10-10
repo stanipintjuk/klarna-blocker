@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 import styled from "styled-components";
 import { IAppState } from "../background/store";
 
-class Counter extends React.Component {
+class Blocker extends React.Component {
   render() {
     return (
       <CounterContainer>
@@ -19,7 +19,7 @@ const mapStateToProps = (state: IAppState) => {
   };
 };
 
-export default connect(mapStateToProps)(Counter);
+export default connect(mapStateToProps)(Blocker);
 
 const CounterContainer = styled("div")`
   display: flex;
